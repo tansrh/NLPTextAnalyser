@@ -3,7 +3,6 @@ spacy
 numpy
 pandas
 textblob
-pdfminer.high_level
-pdfminer
+pdfminer.six
 annotated_text
 nltk
