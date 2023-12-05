@@ -4,5 +4,5 @@ numpy
 pandas
 textblob
 pdfminer.six
-annotated_text
+st-annotated-text
 nltk
