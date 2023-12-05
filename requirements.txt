@@ -1,0 +1,9 @@
+streamlit
+spacy
+numpy
+pandas
+textblob
+pdfminer.high_level
+pdfminer
+annotated_text
+nltk
