@@ -8,6 +8,7 @@ from spacy import displacy
 from annotated_text import annotated_text
 from nltk.corpus import stopwords
 nltk.download('stopwords')
+nltk.download('punkt')
 stpwds=stopwords.words('english')
 from nltk.tokenize import word_tokenize
 st.title("Text Analyser")
