@@ -1,14 +1,11 @@
 import streamlit as st
 from pdfminer.high_level import extract_pages, extract_text
-import PyPDF2
 from textblob import TextBlob
 import nltk
-import tabulate
 import pandas as pd
 import spacy
 from spacy import displacy
 from annotated_text import annotated_text
-from terminaltables import AsciiTable
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 stpwds=stopwords.words('english')
