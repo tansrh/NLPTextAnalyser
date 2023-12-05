@@ -6,4 +6,3 @@ textblob
 pdfminer.six
 st-annotated-text
 nltk
-en-core-web-sm
