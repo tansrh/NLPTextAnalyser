@@ -15,7 +15,7 @@ st.title("Text Analyser")
 nlp=spacy.load("en_core_web_sm")
 
 option = st.selectbox(
-    'How would you like to analyze the text ?',
+    'How would you like to analyse the text ?',
     ('File Upload', 'Edit in screen'))
 if option=='File Upload':
     file = st.file_uploader("Upload a PDF file", type="pdf")
