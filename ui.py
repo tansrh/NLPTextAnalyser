@@ -88,7 +88,7 @@ if option=='File Upload':
         
 else:
     txt = st.text_area(
-    "Write the Text to be analyzed")
+    "Write the text to be analysed")
     btn=st.button("Analyse")
     content = ""
     
