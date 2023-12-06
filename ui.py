@@ -57,8 +57,10 @@ if option=='File Upload':
 
     if btn:
         st.write("Total words :", tot)
-        st.write("Accuracy :")
-        st.write(((wt/tot))*100)
+        if(tot>0):
+            
+            st.write("Accuracy :")
+            st.write(((wt/tot))*100)
         st.write(f"Vocabulary strength : {len(crt)}")
         st.write(f"Stopwords used : {tot-len(crt)}")
         lst=[]
@@ -120,8 +122,9 @@ else:
         
     if(btn):
         st.write("Total words :", tot)
-        st.write("Accuracy :")
-        st.write(((wt/tot))*100)
+        if(tot>0):
+            st.write("Accuracy :")
+            st.write(((wt/tot))*100)
         st.write(f"Vocabulary strength : {len(crt)}")
         st.write(f"Stopwords used : {tot-len(crt)}")
         lst=[]
